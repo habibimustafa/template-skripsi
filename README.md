@@ -9,7 +9,7 @@ Terimakasih.
 
 Download
 --------
-Silakan download versi terakhir di [https://github.com/sendz/template-skripsi/releases](https://github.com/gtrdp/template-skripsi/releases).
+Silakan download versi terakhir di [https://github.com/sendz/template-skripsi/releases](https://github.com/sendz/template-skripsi/releases).
 
 Quick Start
 -----------
@@ -18,7 +18,7 @@ Quick Start
 	- [*Linux*](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=linux+setup+latex)
 	- [*Mac OS X*](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=mac+setup+latex)
 
-2. Clone repository ini dengan [Git](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=setup+git). Atau [unduh](https://github.com/gtrdp/template-skripsi/releases) repository ini (cara ini lebih mudah).
+2. Clone repository ini dengan [Git](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=setup+git). Atau [unduh](https://github.com/sendz/template-skripsi/releases) repository ini (cara ini lebih mudah).
 3. Mulai tulis naskah anda, keterangan dari masing-masing file dalam template ini ada di bawah.
 4. Pertamakali pakai LaTeX? Butuh bantuan? Pergunakanlah Google dengan baik dan bijak. Saya bantu:
 	- [Bahasa Indonesia](https://www.google.com/search?q=tutorial+menggunakan+latex&oq=tutorial+menggunakan+latex&aqs=chrome..69i57j0.3219j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
@@ -83,4 +83,4 @@ Namun branch perpus-pusat dan skripsi-guntur adalah skripsi milik Pak Guntur Dha
 
 Lisensi
 -------
-Template sripsi ini dilisensikan dengan menggunakan [lisensi MIT](https://raw.githubusercontent.com/gtrdp/template-skripsi/master/LICENSE).
+Template sripsi ini dilisensikan dengan menggunakan [lisensi MIT](https://raw.githubusercontent.com/sendz/template-skripsi/master/LICENSE).
