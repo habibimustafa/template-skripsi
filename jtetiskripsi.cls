@@ -256,7 +256,7 @@
       {Program Studi \@dept}
       \vspace{1.0cm}
        \vfill
-       \includegraphics[width=0.3\textwidth]{gambar/logouin.png}
+       \includegraphics[width=0.4\textwidth]{gambar/logouin.png}
        \vfill
        \vspace{0.5cm}
        {\normalfont
