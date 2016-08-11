@@ -248,22 +248,33 @@
     \begin{center}
       \begin{singlespace}
       \fontsize{14pt}{16pt}\selectfont\MakeUppercase{\normalfont\bfseries\@titleind}\par\nobreak
-      \vspace{1.5cm}
-      \MakeUppercase{\normalfont\bfseries Skripsi}\\
+      \vspace{1.0cm}
+      \MakeUppercase{\normalfont Skripsi}\\
+      \vspace{0.5cm}
+      {Untuk memenuhi persyaratan mencapai derajat Strata 1} \\
+      \vspace{1.0cm}
+      {Program Studi \@dept}
       \vspace{1.0cm}
        \vfill
-       \includegraphics[width=0.5\textwidth]{gambar/logouin.png}
+       \includegraphics[width=0.3\textwidth]{gambar/logouin.png}
        \vfill
+       \vspace{0.5cm}
        {\normalfont
-        \bfseries Disusun oleh:\\
-        \MakeUppercase{\normalfont\bfseries\underline \@fullname}\\
+        \bfseries Diajukan oleh:\\
+        \vspace{0.5em}
+        \bfseries{\@fullname}\\
+        \vspace{0.5em}
         \MakeUppercase{\normalfont\bfseries \@idnum}}\\
-       \vspace{1.5cm}
+       \vspace{1.0cm}
        {\normalfont 
-         \MakeUppercase{\normalfont\bfseries \@dept}\\
-         \MakeUppercase{\normalfont\bfseries\@faculty} \\ \MakeUppercase{\normalfont\bfseries\@university}\\
+         \MakeUppercase{\normalfont\bfseries Program Studi \@dept}\\
+         \vspace{0.5em}
+         \MakeUppercase{\normalfont\bfseries\@faculty} \\ 
+		\vspace{0.5em}         
+         \MakeUppercase{\normalfont\bfseries\@university}\\
+         \vspace{0.5em}
          \MakeUppercase{\normalfont\bfseries\@city}\\
-         \vspace{0.5cm}
+         \vspace{0.3cm}
          {\normalfont\bfseries\@yearsubmit}}\\
       \end{singlespace}
       \end{center}
