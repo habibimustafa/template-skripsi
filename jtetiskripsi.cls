@@ -16,6 +16,7 @@
 \RequirePackage[english,bahasa]{babel}
 \RequirePackage{indentfirst}
 \RequirePackage{setspace}
+\RequirePackage{ragged2e}
 \RequirePackage[T1]{fontenc}
 \RequirePackage{times}
 \RequirePackage{graphicx,latexsym}
@@ -169,7 +170,7 @@
 \def\nomenclaturename{DAFTAR SINGKATAN}%
 \def\abstractname{Intisari}%
 \def\acknowledgmentname{HALAMAN PERSEMBAHAN}%
-\def\approvalname{HALAMAN PENGESAHAN}
+\def\approvalname{SURAT PERSETUJUAN SKRIPSI/TUGAS AKHIR}
 \def\partname{BAGIAN}%
 \def\chaptername{BAB}%
 \def\appendixname{LAMPIRAN}%
@@ -284,41 +285,52 @@
 %Approval Page
 %------------------------------------------------------------
 \def\approvalpage{%
-  \chapter*{\approvalname}%
-  \begin{center}
-  \begin{doublespace}
-        \MakeUppercase{\normalfont\bfseries\@titleind}\par\nobreak
-    \vspace{1.0cm}
-    \MakeUppercase{\normalfont\bfseries\expandafter{Skripsi}}\\
-    \vspace{1.0cm}
-    Diajukan Sebagai Salah Satu Syarat untuk Memperoleh\\
-    Gelar Sarjana Teknik Program S-1\\
-    Pada Jurusan \@dept \ \@faculty \\
-    \@university
-
-    \vspace{1.0cm}
-    \textbf{Disusun oleh:}\\
-    \begin{singlespace}
-      \underline{\bfseries \@fullname}\\
-      \textbf{\@idnum}\\
+  \chapter*{\underline\approvalname}%
+  \begin{flushleft}
+ 	 \begin{singlespace}
+  		\justify
+  		{Hal \hspace*{1.3em} : Permohonan} \\
+  		{Lamp \hspace*{0.5em} : -} \\
+  		\\
+  		{Kepada} \\
+  		{Yth. Dekan \@faculty} \\
+  		{\@university} \\
+  		{di \@city} \\
+  		
+  		\textit{Assalamu'alaikum wr. wb} \\
+  		\setlength{\parindent}{1.5em}
+  		\par Setelah membaca, meneliti, memberikan petunjuk dan mengoreksi serta mengadakan perbaikan seperlunya, maka kami selaku pembimbing berpendapat bahwa skripsi Saudara: \\
+  		
+  		\par Nama \hspace*{1.6cm} : \@fullname
+  		\par NIM \hspace*{1.8cm} : \@idnum
+  		\par Judul Skripsi \hspace*{0.4cm} : \@titleind \\
+  		
+  		\setlength{\parindent}{0em}
+  		sudah dapat diajukan kembali kepada Program Studi {\@dept} {\@faculty} {\@university} \@city sebagai salah satu syarat untuk memperoleh gelar Sarjanan Strata Satu dalam \@dept.
+  		
+  		\vspace{1em}
+  		\setlength{\parindent}{1.5em}
+  		\par{Dengan ini kami mengharap agar skripsi/tugas akhir Saudara tersebut di atas dapat segera dimunaqsyahkan. Atas perhatiannya kami ucapkan terima kasih.} \\
+  		
+  		\textit{Wassalamu'alaikum wr. wb.}
+  		\vspace{2em}
+  		\begin{center}
+  		\begin{singlespace}
+  		\begin{flushright}
+  		
+    		\begin{tabular}{cccc}
+      		& & \@city, \@approvaldate \\
+      		& & Pembimbing \\
+      		\vspace{1cm} & \vspace{1cm} & \vspace{1cm}\\
+      		& &
+      		\textbf{\underline{\@firstsupervisor}} \\
+      		& & \bfseries NIP. \@firstnip    
+    	\end{tabular}
+  		\end{flushright}
     \end{singlespace}
-    \vspace{1.0cm}
-    Telah disetujui dan disahkan\\
-    pada tanggal \@approvaldate
-    \vspace{1.0cm}
-
-    \begin{singlespace}
-    \begin{tabular}{ccc}
-      Dosen Pembimbing I & & Dosen Pembimbing II \\
-      \vspace{1cm} & \vspace{1cm} & \vspace{1cm}\\
-      \textbf{\underline{\@firstsupervisor}}& &
-      \textbf{\underline{\@secondsupervisor}} \\
-      \bfseries NIP. \@firstnip & & \bfseries NIP. \@secondnip    
-    \end{tabular}
-    \end{singlespace}
-
-  \end{doublespace}
-  \end{center}
+    \end{center}
+  	\end{singlespace}
+  \end{flushleft}
 \addcontentsline{toc}{chapter}{\approvalname}
 }
 
