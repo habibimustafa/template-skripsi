@@ -24,7 +24,7 @@ Quick Start
 	- [Bahasa Indonesia](https://www.google.com/search?q=tutorial+menggunakan+latex&oq=tutorial+menggunakan+latex&aqs=chrome..69i57j0.3219j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
 	- [English](https://www.google.com/search?q=latex+tutorial&oq=latex+tutorial&aqs=chrome..69i57j69i65l3j69i60l2.1884j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
 	- Atau kontak saya melalui email: [guntur.dharma@gmail.com](mailto:guntur.dharma@gmail.com)
-5. Jika terjadi masalah dengan log error `! Package babel Error: Unknown option `bahasa'. Either you misspelled it` cobalah solusi berikut:
+5. Jika terjadi masalah dengan log error `! Package babel Error: Unknown option 'bahasa'. Either you misspelled it` cobalah solusi berikut:
 	- Mac OS X: `sudo port install texlive-lang-other`
 	- Linux Debian / Ubuntu: `sudo apt-get install texlive-lang-other`
 	- Windows silakan akses [https://www.tug.org/texlive/](https://www.tug.org/texlive/)
