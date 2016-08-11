@@ -204,8 +204,8 @@
 %------------------------------------------------------------]
 %Define thesis's inputs
 %------------------------------------------------------------
-\gdef\@university{Universitas Gadjah Mada}
-\gdef\@faculty{Fakultas Teknik}
+\gdef\@university{Universitas Islam Negeri Sunan Kalijaga}
+\gdef\@faculty{Fakultas Sains dan Teknologi}
 \gdef\@city{Yogyakarta}
 \newcommand{\titleind}[1]{\gdef\@titleind{#1}}
 \newcommand{\@titleind}{}
@@ -260,8 +260,8 @@
         \MakeUppercase{\normalfont\bfseries \@idnum}}\\
        \vspace{1.5cm}
        {\normalfont 
-         \MakeUppercase{\normalfont\bfseries Jurusan \@dept}\\
-         \MakeUppercase{\normalfont\bfseries\@faculty} \MakeUppercase{\normalfont\bfseries\@university}\\
+         \MakeUppercase{\normalfont\bfseries \@dept}\\
+         \MakeUppercase{\normalfont\bfseries\@faculty} \\ \MakeUppercase{\normalfont\bfseries\@university}\\
          \MakeUppercase{\normalfont\bfseries\@city}\\
          \vspace{0.5cm}
          {\normalfont\bfseries\@yearsubmit}}\\
