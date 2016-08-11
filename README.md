@@ -1,15 +1,15 @@
-Template Naskah Skripsi LaTeX
-=============================
+Template Naskah Skripsi LaTeX Teknik Informatika Fakultas Saintek UIN Sunan Kalijaga
+====================================================================================
 
-Template Naskah Skripsi dengan typesetting LaTeX untuk JTETI Universitas Gadjah Mada. Template ini merupakan hasil modifikasi dari versi pak Pekik Nurwantoro (FMIPA) dan mas Yohan (JTETI 2008).
+Template Naskah Skripsi dengan LaTex untuk Teknik Informatika Fakultas Saintek UIN Sunan Kalijaga, template ini merupakan hasil penyesuaian dan modifikasi dari versi Pak Guntur Dharma yang saya fork dari [https://github.com/gtrdp/template-skripsi](https://github.com/gtrdp/template-skripsi)
 
-Semoga bermanfaat. Anda sangat dibolehkan untuk turut berkontribusi dalam project ini dengan *Fork*, *Pull Request*, *Create New Issue*, atau turut menjadi kontributor repo ini.
+Semoga bermanfaat.
 
 Terimakasih.
 
 Download
 --------
-Silakan download versi terakhir di [https://github.com/gtrdp/template-skripsi/releases](https://github.com/gtrdp/template-skripsi/releases).
+Silakan download versi terakhir di [https://github.com/sendz/template-skripsi/releases](https://github.com/gtrdp/template-skripsi/releases).
 
 Quick Start
 -----------
@@ -24,6 +24,10 @@ Quick Start
 	- [Bahasa Indonesia](https://www.google.com/search?q=tutorial+menggunakan+latex&oq=tutorial+menggunakan+latex&aqs=chrome..69i57j0.3219j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
 	- [English](https://www.google.com/search?q=latex+tutorial&oq=latex+tutorial&aqs=chrome..69i57j69i65l3j69i60l2.1884j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
 	- Atau kontak saya melalui email: [guntur.dharma@gmail.com](mailto:guntur.dharma@gmail.com)
+5. Jika terjadi masalah dengan log error `! Package babel Error: Unknown option `bahasa'. Either you misspelled it` cobalah solusi berikut:
+	- Mac OS X: `sudo port install texlive-lang-other`
+	- Linux Debian / Ubuntu: `sudo apt-get install texlive-lang-other`
+	- Windows silakan akses [https://www.tug.org/texlive/](https://www.tug.org/texlive/)
 
 Contents
 --------
@@ -31,7 +35,7 @@ Berikut penjelasan dari file-file utama dalam template ini. File lain yang tidak
 
 		template-skripsi/
 			├── gambar/
-			│	   ├── logougm.png
+			│	   ├── logouin.png
 			│	   └── wsn.png
 			├── bab1.tex
 			├── bab2.tex
@@ -75,7 +79,7 @@ Jika anda *clone* repository ini dengan [Git](https://www.google.com/search?q=wi
 
 Branch master merupakan template skripsi, dengan isi yang sudah disesuaikan.
 
-Namun branch perpus-pusat dan skripsi-guntur adalah skripsi saya :D. Silakan baca-baca, semoga bermanfaat. Perpus-pusat adalah skripsi dengan tambahan lembar pernyataan dan lembar pengesahan asli, guna dikumpulkan di Perpus Pusat UGM.
+Namun branch perpus-pusat dan skripsi-guntur adalah skripsi milik Pak Guntur Dharma :D. Silakan baca-baca, semoga bermanfaat. Perpus-pusat adalah skripsi dengan tambahan lembar pernyataan dan lembar pengesahan asli, guna dikumpulkan di Perpus Pusat UGM.
 
 Lisensi
 -------
