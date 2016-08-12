@@ -253,7 +253,7 @@
       \vspace{1.0cm}
       \MakeUppercase{\normalfont Skripsi}\\
       \vspace{0.5cm}
-      {Untuk memenuhi persyaratan mencapai derajat Strata 1} \\
+      {Untuk memenuhi persyaratan mencapai derajat Strata Satu} \\
       \vspace{1.0cm}
       {Program Studi \@dept}
       \vspace{1.0cm}
