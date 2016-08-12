@@ -25,7 +25,7 @@
 %Untuk caption dan subcaption
 \usepackage{caption}
 \usepackage{subcaption}
-
+\usepackage{geometry}
 
 %-----------------------------------------------------------------
 %Disini awal masukan untuk data proposal skripsi
@@ -53,7 +53,7 @@
 \secondnip{NIP Dosen 2}
 
 \def \approvalnumber{FM-UINSK-BM-06-03/R0}
-\def \fulluniversity{Universitas Islam Negeri Sunan Kalijaga}
+\def \shortuniversity{UIN Sunan Kalijaga}
 
 %-----------------------------------------------------------------
 %Disini akhir masukan untuk data proposal skripsi
@@ -63,7 +63,9 @@
 
 \cover
 
+\newgeometry{top=1.5cm,left=2.5cm,right=2cm}
 \approvalpage
+\restoregeometry
 
 %-----------------------------------------------------------------
 %Disini awal masukan Acknowledment

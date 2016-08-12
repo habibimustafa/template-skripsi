@@ -20,6 +20,7 @@
 \RequirePackage[T1]{fontenc}
 \RequirePackage{times}
 \RequirePackage{graphicx,latexsym}
+\RequirePackage{fancyhdr}
 
 \setlength{\paperwidth}{210mm}
 \setlength{\paperheight}{297mm}
@@ -257,7 +258,7 @@
       {Program Studi \@dept}
       \vspace{1.0cm}
        \vfill
-       \includegraphics[width=0.4\textwidth]{gambar/logouin.png}
+       \includegraphics[width=0.4\textwidth, natwidth=3937, natheight=4894]{gambar/logouin.png}
        \vfill
        \vspace{0.5cm}
        {\normalfont
@@ -284,8 +285,22 @@
 %------------------------------------------------------------
 %Approval Page
 %------------------------------------------------------------
+
 \def\approvalpage{%
+  {
+  \cleardoublepage
+  \let\clearpage\relax
+  \begin{flushleft}
+  \begin{tabular}{cccc}
+  \includegraphics[width=0.05\textwidth]{gambar/logouin.png} &
+  \textbf\@university &
+  \includegraphics[width=0.1\textwidth]{gambar/logotuv.jpg} &
+  \textbf\approvalnumber  
+  \end{tabular}
+  \vspace{1cm}
+  \end{flushleft}
   \chapter*{\underline\approvalname}%
+  }
   \begin{flushleft}
  	 \begin{singlespace}
   		\justify
@@ -294,7 +309,7 @@
   		\\
   		{Kepada} \\
   		{Yth. Dekan \@faculty} \\
-  		{\@university} \\
+  		{\shortuniversity} {\@city} \\
   		{di \@city} \\
   		
   		\textit{Assalamu'alaikum wr. wb} \\
@@ -306,7 +321,7 @@
   		\par Judul Skripsi \hspace*{0.4cm} : \@titleind \\
   		
   		\setlength{\parindent}{0em}
-  		sudah dapat diajukan kembali kepada Program Studi {\@dept} {\@faculty} {\@university} \@city sebagai salah satu syarat untuk memperoleh gelar Sarjanan Strata Satu dalam \@dept.
+  		sudah dapat diajukan kembali kepada Program Studi {\@dept} {\@faculty} {\@university} {\@city} sebagai salah satu syarat untuk memperoleh gelar Sarjanan Strata Satu dalam \@dept.
   		
   		\vspace{1em}
   		\setlength{\parindent}{1.5em}
