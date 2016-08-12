@@ -354,7 +354,14 @@
 %------------------------------------------------------------
 \def\acknowledgment{%
   \chapter*{\acknowledgmentname}%
-\null\vfill%Force the content of acknowledment to bottom page 
+  \begin{singlespace}
+  Skripsi ini saya persembahkan untuk:
+  \begin{itemize}
+  	\item Bapak dan Ibu, blablabla
+  	\item Teman
+  	\item Apapun
+  \end{itemize}
+  \end{singlespace}
 \addcontentsline{toc}{chapter}{\acknowledgmentname}
 }
 
