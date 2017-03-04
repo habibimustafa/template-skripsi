@@ -1,5 +1,4 @@
-Template Naskah Skripsi LaTeX 
-Teknik Informatika Fakultas Saintek UIN Sunan Kalijaga
+Template Naskah Skripsi LaTeX Teknik Informatika <br/>Fakultas Saintek UIN Sunan Kalijaga
 ====================================================================================
 
 Template Naskah Skripsi dengan LaTex untuk Teknik Informatika Fakultas Saintek UIN Sunan Kalijaga, template ini merupakan hasil penyesuaian dan modifikasi dari versi Pak Guntur Dharma yang saya fork dari [https://github.com/gtrdp/template-skripsi](https://github.com/gtrdp/template-skripsi)
