@@ -1,4 +1,5 @@
-Template Naskah Skripsi LaTeX Teknik Informatika Fakultas Saintek UIN Sunan Kalijaga
+Template Naskah Skripsi LaTeX 
+Teknik Informatika Fakultas Saintek UIN Sunan Kalijaga
 ====================================================================================
 
 Template Naskah Skripsi dengan LaTex untuk Teknik Informatika Fakultas Saintek UIN Sunan Kalijaga, template ini merupakan hasil penyesuaian dan modifikasi dari versi Pak Guntur Dharma yang saya fork dari [https://github.com/gtrdp/template-skripsi](https://github.com/gtrdp/template-skripsi)
@@ -9,7 +10,7 @@ Terimakasih.
 
 Download
 --------
-Silakan download versi terakhir di [https://github.com/sendz/template-skripsi/releases](https://github.com/sendz/template-skripsi/releases).
+Silakan download versi terakhir di [https://github.com/habibimustafa/template-skripsi-uinsuka/releases](https://github.com/habibimustafa/template-skripsi-uinsuka/releases).
 
 Quick Start
 -----------
@@ -18,12 +19,11 @@ Quick Start
 	- [*Linux*](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=linux+setup+latex)
 	- [*Mac OS X*](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=mac+setup+latex)
 
-2. Clone repository ini dengan [Git](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=setup+git). Atau [unduh](https://github.com/sendz/template-skripsi/releases) repository ini (cara ini lebih mudah).
+2. Clone repository ini dengan [Git](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=setup+git). Atau [unduh](https://github.com/habibimustafa/template-skripsi-uinsuka/releases) repository ini (cara ini lebih mudah).
 3. Mulai tulis naskah anda, keterangan dari masing-masing file dalam template ini ada di bawah.
 4. Pertamakali pakai LaTeX? Butuh bantuan? Pergunakanlah Google dengan baik dan bijak. Saya bantu:
 	- [Bahasa Indonesia](https://www.google.com/search?q=tutorial+menggunakan+latex&oq=tutorial+menggunakan+latex&aqs=chrome..69i57j0.3219j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
 	- [English](https://www.google.com/search?q=latex+tutorial&oq=latex+tutorial&aqs=chrome..69i57j69i65l3j69i60l2.1884j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
-	- Atau kontak saya melalui email: [guntur.dharma@gmail.com](mailto:guntur.dharma@gmail.com)
 5. Jika terjadi masalah dengan log error `! Package babel Error: Unknown option 'bahasa'. Either you misspelled it` cobalah solusi berikut:
 	- Mac OS X: `sudo port install texlive-lang-other`
 	- Linux Debian / Ubuntu: `sudo apt-get install texlive-lang-other`
